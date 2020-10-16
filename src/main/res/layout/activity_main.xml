@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="@dimen/car_width"
+            android:layout_height="@dimen/car_height"
+            android:background="@mipmap/cardback">
+
+            <ImageView
+                android:id="@+id/iv_head"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="14dp"
+                android:layout_marginEnd="22dp"
+                android:layout_marginRight="22dp"
+                android:scaleType="fitXY" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/tv_fixed"
+                        android:text="@string/name" />
+
+                    <TextView
+                        android:id="@+id/tv_name"
+                        style="@style/tv_dynamic"
+                        android:layout_width="70dp"
+                        android:text="刘世锋"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="230dp"
+                    android:layout_height="@dimen/height"
+
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/tv_fixed"
+                        android:text="@string/sex" />
+
+
+                    <TextView
+                        android:id="@+id/tv_sex"
+                        style="@style/tv_dynamic"
+                        android:layout_width="30dp"
+                        android:text="男" />
+
+                    <TextView
+                        style="@style/tv_fixed"
+                        android:layout_marginStart="36dp"
+                        android:layout_marginLeft="36dp"
+                        android:text="@string/ethnic" />
+
+                    <TextView
+
+                        android:id="@+id/tv_ethnic"
+                        style="@style/tv_dynamic"
+                        android:layout_width="30dp"
+                        android:text="汉" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height"
+
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/tv_fixed"
+                        android:text="@string/birth" />
+
+                    <TextView
+                        android:id="@+id/tv_year"
+                        style="@style/tv_dynamic"
+                        android:layout_width="50dp"
+                        android:text="1999" />
+
+                    <TextView
+                        style="@style/ye"
+                        android:text="@string/year" />
+
+                    <TextView
+                        android:id="@+id/tv_moth"
+                        style="@style/tv_dynamic"
+                        android:layout_width="20dp"
+                        android:text="9" />
+
+                    <TextView
+                        style="@style/ye"
+                        android:text="@string/mouth" />
+
+                    <TextView
+                        android:id="@+id/tv_day"
+                        style="@style/tv_dynamic"
+                        android:layout_width="20dp"
+                        android:text="17" />
+
+                    <TextView
+                        style="@style/ye"
+                        android:text="@string/day" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/tv_fixed"
+                        android:text="@string/address" />
+
+                    <TextView
+
+                        android:id="@+id/tv_address"
+                        style="@style/tv_dynamic"
+                        android:layout_height="match_parent"
+                        android:text="广东省平远县东石镇茅坪村神
+                        岗中山园路1001号TCL科学院区研发楼D2懂6漏" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height"
+
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/tv_fixed"
+                        android:text="@string/car_no" />
+
+                    <TextView
+                        android:id="@+id/tv_car_no"
+                        style="@style/tv_dynamic"
+                        android:text="441426199909162630" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="@dimen/car_width"
+            android:layout_height="@dimen/car_height"
+            android:layout_marginTop="20dp"
+            android:background="@mipmap/back">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:src="@mipmap/guohui" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="24dp"
+                android:orientation="vertical"
+                tools:ignore="RtlHardcoded">
+                <!-- <TextView
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:textSize="30dp"
+                    android:text="@string/counter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>-->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:src="@mipmap/upzi" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@mipmap/sfz" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="83dp"
+                        android:text="@string/jiguan"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/tv_gonganju"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="平远县公安局"
+                        android:textColor="#000000" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="83dp"
+                        android:text="@string/date"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/tv_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="2014.04.29-2024.04.29"
+                        android:textColor="#000000" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <Button
+
+        android:id="@+id/bt_exit"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="退出"
+        android:textSize="30dp" />
+
+    <TextView
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:text="0"
+        android:gravity="center"
+        android:id="@+id/tv_count"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+    <Button
+        android:visibility="gone"
+        android:id="@+id/bt_readMF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
